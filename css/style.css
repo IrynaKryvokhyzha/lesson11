@@ -1,0 +1,176 @@
+.wpapper{
+	position: relative;
+	overflow: hidden;
+	max-height: 100%;
+}
+.image img {
+	max-width: 100%;
+	min-width: 1500px;	
+}
+.car__body {
+	position: absolute;
+	bottom: 100px;
+	left: 500px;
+}
+.car__window {
+	position: relative;
+	bottom: 540px;
+	left: 700px;
+}
+.car__policeman img{
+	position: relative;
+	bottom: 630px;
+	left: 740px;
+	border-radius: 10px;
+	opacity: 0;
+	visibility: hidden;
+}
+.car__policewoman img{
+	position: relative;
+	bottom: 720px;
+	left: 842px;
+	border-radius: 10px;
+	opacity: 0;
+	visibility: hidden;
+	height: 80px;
+}
+.car__door {
+	position: absolute;
+	bottom: 130px;
+	left: 675px;
+}
+.car__door-star {
+	position: absolute;
+	bottom: 150px;
+	left: 755px;
+}
+.car__bamper {
+	position: absolute;
+	bottom: 95px;
+	left: 480px;
+}
+.car__lighter {
+	position: absolute;
+	bottom: 390px;
+	left: 800px;
+}
+.car__blue-signal {
+	position: absolute;
+	bottom: 410px;
+	left: 765px;
+}
+.car__red-signal {
+	position: absolute;
+	bottom: 410px;
+	left: 875px;
+}
+.car__red-light {
+	position: absolute;
+	bottom: 190px;
+	left: 1058px;
+}
+.car__white-light {
+	position: absolute;
+	bottom: 190px;
+	left: 512px;
+}
+.car__wheel-left {
+	position: absolute;
+	bottom: 40px;
+	left: 555px;
+}
+.car__wheel-right {
+	position: absolute;
+	bottom: 40px;
+	left: 875px;
+}
+.car__disk-left {
+	position: absolute;
+	bottom: 73px;
+	left: 590px;
+}
+.car__disk-right {
+	position: absolute;
+	bottom: 73px;
+	left: 913px;
+}
+.car__disk-elements-left {
+	position: absolute;
+	bottom: 80px;
+	left: 605px;
+}
+.car__disk-elements-right {
+	position: absolute;
+	bottom: 82px;
+	left: 928px;
+}
+.car__disk-star-left {
+	position: absolute;
+	bottom: 78px;
+	left: 595px;
+}
+.car__disk-star-right {
+	position: absolute;
+	bottom: 80px;
+	left: 920px;
+}
+.car:hover .car__window{
+transition: all 3s ease 0s;
+transform: translate(0, 100%);
+visibility: hidden;
+opacity: 0;
+z-index: 1;
+}
+.car:hover .car__policeman img{
+	visibility: visible;
+	opacity: 1;
+}
+.car:hover .car__policewoman img{
+	visibility: visible;
+	opacity: 1;
+}
+.car:hover .car__disk-elements-right{	
+	transition-duration: 10s;
+	transform: rotate(-8888deg);
+}
+.car:hover .car__disk-star-right{	
+	transition-duration: 10s;
+	transform: rotate(-8888deg);
+}
+.car:hover .car__disk-right{	
+	transition-duration: 10s;
+	transform: rotate(-8888deg);
+}
+.car:hover .car__disk-elements-left{	
+	transition-duration: 10s;
+	transform: rotate(-8888deg);
+}
+.car:hover .car__disk-star-left{	
+	transition-duration: 10s;
+	transform: rotate(-8888deg);
+}
+.car:hover .car__disk-left{	
+	transition-duration: 10s;
+	transform: rotate(-8888deg);
+}
+.fixed{
+	background-color: greenyellow;
+	border: 1px solid greenyellow;
+	border-radius: 10px;
+	font-size: 40px;
+	width: fit-content;
+	box-shadow: 5px 5px 10px 5px yellow;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.sticky{
+	background-color: blue;
+	border: 1px solid blue;
+	border-radius: 10px;
+	font-size: 40px;
+	width: fit-content;
+	box-shadow: 5px 5px 10px 5px purple;
+	position: sticky;
+	left: 500px;
+}
